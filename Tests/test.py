@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+import numpy as np
+from matplotlib import pyplot as plt
 from Transformations_2D.Point2D import Point2D
 from Transformations_2D.Rotate import Rotate
 from Transformations_2D.Translate import Translate
