@@ -7,7 +7,6 @@ from Transformations_2D.Rotate import Rotate
 from Transformations_2D.Translate import Translate
 from Transformations_2D.Transformation import Transformation
 
-
 def test1():
     # Set up the points
     points = [Point2D(2, 4), Point2D(3, 6), Point2D(), Point2D(1, 2)]
@@ -29,8 +28,8 @@ def test1():
     print(p_total)
 
     # Do operations with transformations
-    print(t1+t1)
-    print(r1+r1)
+    print(t1 + t1)
+    print(r1 + r1)
     for p in points:
         p.plot('r')   # color red
         p_t = t1 * p
@@ -41,6 +40,7 @@ def test1():
         p_T.plot('y') # color yellow
 
     plt.axis('equal')
+    plt.show()
 
 def run_tests():
     test1()
