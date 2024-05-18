@@ -1,3 +1,5 @@
+from Transformations_2D.Point2D import Point2D
+
 class Transformation:
     def __init__(self, *transforms):
         self.transforms = transforms
