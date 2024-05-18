@@ -1,3 +1,5 @@
+from Transformations_2D.Point2D import Point2D
+
 class Translate:
     def __init__(self, dx, dy):
         self.dx = dx
