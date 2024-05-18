@@ -1,3 +1,6 @@
+from Transformations_2D.Point2D import Point2D
+import numpy as np
+
 class Rotate:
     def __init__(self, theta):
         self.theta = theta
