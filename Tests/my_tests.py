@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 import numpy as np
 from matplotlib import pyplot as plt
 from Transformations_2D.Point2D import Point2D
